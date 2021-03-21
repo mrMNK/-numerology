@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/kingLogo"
+            android:layout_width="163dp"
+            android:layout_height="246dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/king_logo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/firstNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_above="@+id/firstNameUnderline"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:hint="@string/first_name"
+            android:textColorHint="@color/colorAccent" />
+
+        <ImageView
+            android:id="@+id/firstNameUnderline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/path" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/lastNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_above="@+id/lastNameUnderline"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:hint="@string/last_name"
+            android:textColorHint="@color/colorAccent" />
+
+        <ImageView
+            android:id="@+id/lastNameUnderline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:srcCompat="@drawable/path" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+    <RelativeLayout
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:layout_width="match_parent">
+
+
+        <Button
+            android:id="@+id/signInScreenBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/oval_shape_button"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="Войти" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>

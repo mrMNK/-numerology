@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/date_of_birth"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"/>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:layout_width="0dp">
+
+                <EditText
+                    android:id="@+id/dayOfBirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:hint="@string/_2digit_number_hint"
+                    android:textColorHint="@color/colorAccent"/>
+
+                <ImageView
+                    android:id="@+id/dayOfBirthUnderline"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_below="@+id/dayOfBirth"
+                    app:srcCompat="@drawable/short_path" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:layout_width="0dp">
+
+                <EditText
+                    android:id="@+id/monthOfBirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:hint="@string/_2digit_number_hint"
+                    android:textColorHint="@color/colorAccent" />
+
+                <ImageView
+                    android:id="@+id/monthOfBirthUnderline"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_below="@+id/monthOfBirth"
+                    app:srcCompat="@drawable/short_path" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:layout_width="0dp">
+
+                <EditText
+                    android:id="@+id/yearOfBirth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:hint="@string/_4digit_number_hint"
+                    android:textColorHint="@color/colorAccent" />
+
+                <ImageView
+                    android:id="@+id/yearOfBirthUnderline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_below="@+id/yearOfBirth"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/path" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+
+
+            <ImageView
+                android:id="@+id/cancelButton1"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/cancel_button" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/type_of_thinking"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+        <TextView
+            android:id="@+id/typeOfThinkingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="13sp"
+            android:lineSpacingExtra="3sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"/>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/yearOfInterest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:hint="@string/_4digit_number_hint"
+                    android:textColorHint="@color/colorAccent" />
+
+                <ImageView
+                    android:id="@+id/hUnderline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_below="@+id/yearOfInterest"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/path" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+
+
+            <ImageView
+                android:id="@+id/cancelButton2"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/cancel_button" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/recommendations_for_the_year"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+        <TextView
+            android:id="@+id/recForTheYearTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="13sp"
+            android:lineSpacingExtra="3sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+    </RelativeLayout>
+
+</LinearLayout>

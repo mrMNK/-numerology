@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">numerology</string>
+    <string name="app_name">Numerology</string>
+    <string name="author">Болтов Александр</string>
+    <string name="description">Авторская интерпретация психоматрицы Пифагора,\n которая основана\n
+                                на собственном опыте.</string>
+    <string name="sign_up_title">Регистрация</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="comment">Комментарий</string>
+    <string name="save_result">Сохранить результат</string>
+    <string name="create_account">Создание аккаунта</string>
+    <string name="_2digit_number_hint">01</string>
+    <string name="_4digit_number_hint">1900</string>
+    <string name="have_acc">Уже есть аккаунт?</string>
+    <string name="dynamically_changeable">Динамически изменяемый текст</string>
+    <string name="description_title">Описание</string>
+    <string name="account_screen_title">Аккаунт</string>
+    <string name="change_photo">Изменить фотографию</string>
+    <string name="saved_calculations">Сохраненные расчеты</string>
+    <string name="about_yourself">О себе</string>
+    <string name="date_of_birth">Дата рождения:</string>
+    <string name="type_of_thinking">Тип мышления</string>
+    <string name="recommendations_for_the_year">Рекомендации на год</string>
+    <string name="_1">1</string>
+    <string name="compatibility_title">Совместимость</string>
 </resources>

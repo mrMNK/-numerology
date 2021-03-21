@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/signUpTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/sign_up_title"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/lastNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_above="@+id/lastNameUnderline"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:hint="@string/dynamically_changeable"
+            android:textColorHint="@color/colorAccent" />
+
+        <ImageView
+            android:id="@+id/lastNameUnderline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:srcCompat="@drawable/path" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/signUpScreenBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/oval_shape_button"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+
+            android:text="@string/dynamically_changeable"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/have_acc"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+
+
+
+
+</LinearLayout>

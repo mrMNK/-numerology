@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/carnalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/sf_pro_text"
+                android:hint="@string/_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carnalNumber"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Плотское"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="6sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:background="@drawable/matrix_lines">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/characterNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/characterNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Характер"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/healthNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/healthNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Здоровье"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/luckNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/luckNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Удача"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/energyNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/energyNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Энергия"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/logicNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/logicNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Логика"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/dutyNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dutyNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Долг"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/interestNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/interestNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Интерес"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/workNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/workNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Труд"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/memoryNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/sf_pro_text"
+                        android:hint="@string/_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/memoryNumber"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:text="Память"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="6sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/purposeNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/sf_pro_text"
+                    android:hint="@string/_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/purposeNumber"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="Целеустрем-\nленность"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="6sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/familyNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/sf_pro_text"
+                    android:hint="@string/_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/familyNumber"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="Семья"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="6sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/stabilityNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/sf_pro_text"
+                    android:hint="@string/_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stabilityNumber"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="Стабильность"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="6sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/selfEsteemNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/sf_pro_text"
+                android:hint="@string/_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selfEsteemNumber"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="самооценка"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="6sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/everydayLifeNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/sf_pro_text"
+                android:hint="@string/_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/everydayLifeNumber"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Быт"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="6sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/talentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/sf_pro_text"
+                android:hint="@string/_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/talentNumber"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Талант"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="6sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/spiritualNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/sf_pro_text"
+                android:hint="@string/_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spiritualNumber"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Духовное"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="6sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
